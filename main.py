@@ -99,7 +99,7 @@ def battery_polarity():
     checked_batteries = [None, None]
     spin(batteries)
 
-    # Step 5: peek opposite - if n change both
+    # Step 5: if either are n, change to p
 
     peek_els = CHECK_OPPOSITE
     checked_batteries = peek(batteries, peek_els)
